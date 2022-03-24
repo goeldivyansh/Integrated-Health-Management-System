@@ -13,6 +13,10 @@ const userSchema = new Schema({
     state: String,
     symptoms: [{
         type: String
+    }],
+    prevAppointments: [{
+        date: String,
+        doctor: String       
     }]
 });
 

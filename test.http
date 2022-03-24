@@ -1,0 +1,21 @@
+### GET ALL Users
+GET http://localhost:3000/ HTTP/1.1
+
+### GET Single Users
+GET http://localhost:3000/623c6e18da352e67ed38daa8 HTTP/1.1
+
+### Add User (Post Request)
+POST http://localhost:3000/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "first_name": "Sample fName 1",
+    "last_name": "Sample lName 1",
+    "email": "abc@xyz.com",
+    "dob": "01-01-2000",
+    "gender": "Male",
+    "ph_no": 1234567890,
+    "address": "MSIT Janakpuri Delhi",
+    "city": "New Delhi",
+    "state": "Delhi"
+}
